@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <button class="btn btn-primary" data-bs-target="#aa" data-bs-toggle="modal">Login</button>
+    <!-- button trigger model -->
+     <div class="modal fade" id="aa">
+        <div class="modal-dialog model-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-tittle">Login Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div> <!-- model-header  -->
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="">name</label>
+                            <input type="text" name="" placeholder="enter your name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">Email</label>
+                            <input type="email" name="" placeholder="enter your Email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">mobile No.</label>
+                            <input type="number" name="" placeholder="enter your number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">password</label>
+                            <input type="password" name="" placeholder="enter your password" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">Address</label>
+                           <textarea name="" id="" class="form-control"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="">D.O.B</label>
+                            <input type="date" name="" placeholder="enter your D.O.B" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">college</label>
+                           <select name="" id="" class="form-control">
+                            <option value="">select college</option>
+                            <option value="">MITS</option>
+                            <option value="">ITM UNIVERSITY</option>
+                            <option value="">MPCT</option>
+                           </select>
+                        </div>
+                        <input type="submit" class="btn btn-primary">
+                        
+                    </form>   
+
+
+                </div>
+            </div>  <!-- model content end  -->
+        </div><!-- model dialog end  -->
+     </div><!-- model fade end  -->
+</body>
+</html>

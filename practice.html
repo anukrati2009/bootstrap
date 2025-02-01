@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/practicestyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- row-cols-2used to divide all cols in equal part -->
+        <div class="row row-cols-2">
+            <div class="col">col-1</div>
+            <div class="col">col-2</div>
+            <!-- <div class="w-100"></div> use for break the line -->
+            <div class="col">col-3</div>
+            <div class="col">col-4</div>
+            <div class="col">col-5</div>
+            <div class="col">col-6</div>
+            <div class="col">col-7</div>
+            <div class="col">col-8</div>
+        </div>
+        <div class="row">row2</div>
+        <div class="row">row3</div>
+    </div><br><br>
+    <div class="container">
+        <div class="row">
+            <!-- md use for responsive web media queries and for exrta large =col-xl,large= col-lg,medium= col-md , small=col-sm -->
+            <div class="col-md">col-1</div>
+            <div class="col-md">col-2</div>
+            <div class="col-md">col-3</div>
+            <div class="col-md">col-4</div>
+        </div>
+    </div>
+    <br><br>
+    <!-- web layout -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center" id="header">
+                <h1>website name</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id=menu>
+                <ul>
+                    <li><a href=""></a>home</li>
+                    <li><a href=""></a>about</li>
+                    <li><a href=""></a>garally</li>
+                    <li><a href=""></a>product us</li>
+                    <li><a href=""></a> contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8" id="content">
+                <h1>Sub heading</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint incidunt perspiciatis quidem. A
+                    maiores aliquid fugit amet explicabo repellat quisquam, voluptas quidem quaerat earum quae, est
+                    laudantium magni non quis corporis consequuntur illum obcaecati fugiat! Perferendis facilis nam quas
+                    maxime explicabo, quod earum ipsam vitae fugit! Minus consequatur qui ullam architecto optio debitis
+                    veritatis, nulla commodi voluptas fuga culpa nihil, corrupti alias veniam impedit deleniti
+                    accusamus, perferendis nobis repellendus molestiae libero! Neque blanditiis unde quia optio maiores
+                    voluptas dignissimos, accusantium, molestias delectus, nesciunt tempora iste. Commodi repellat quia
+                    qui distinctio, quam numquam. Possimus dolorem ullam praesentium repellat nisi! Corrupti, dicta. Eos
+                    beatae provident optio vel animi itaque temporibus quo fugit ipsa, cum nisi magni officia fuga
+                    aliquid molestias nobis et?</p>
+            </div>
+            <div class="col-4" id="subpart">
+                <ul>
+                    <li><a href=""></a>home</li>
+                    <li><a href=""></a>about</li>
+                    <li><a href=""></a>garally</li>
+                    <li><a href=""></a>product us</li>
+                    <li><a href=""></a> contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="footer">copyright2025</div>
+        </div>
+    </div>
+    <br><br>
+    <!-- offset class use for blank col(offset-xl,offset-lg,offset-md,offset-sm) -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 offset-3 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, placeat!
+            </div>
+            <div class="col-md-3 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, placeat!</div>
+        </div>
+    </div><br><br>
+    <!-- reordering class use to change the col position(order-xl-first,order-lg-first/last,order-md-first/last,...) -->
+    <div class="container">
+        <div class="row">
+            <div class="col pink order-md-last ">col-1</div>
+            <div class="col orange">col-2</div>
+            <div class="col blue order-md-first">col-3</div>
+            <div class="col bg-danger">col-4</div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col pink order-md-2 ">col-1</div>
+            <div class="col orange order-md-3">col-2</div>
+            <div class="col blue order-md-4">col-3</div>
+            <div class="col bg-danger order-md-1">col-4</div>
+        </div>
+    </div>
+    <br><br>
+    <!-- nesting use to add mutiple col class in multiple row -->
+    <div class="container">
+        <div class="row">
+            <div class="col pink col-md-8 ">
+                <h2 class="text-center">heading </h2>
+                <div class="row">
+                    <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nesciunt repudiandae tempora expedita molestias omnis perspiciatis ducimus deleniti doloribus, facilis quis. Possimus culpa iusto, aliquid labore magni impedit minus similique ratione quidem saepe officia doloribus perspiciatis voluptatibus mollitia exercitationem cum aliquam laborum repellendus illum sit? Fuga eos optio esse culpa?z
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-4 bg-success">helol</div>
+                        </div>
+                </div>
+            </div></div>
+            <!-- margin class in bootstrap use() -->
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col pink col-md-3  m0r-auto ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, necessitatibus. Laborum quibusdam odit exercitationem tenetur tempora libero placeat quisquam voluptatem!</div>
+            <div class="col orange col-md-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, assumenda?</div> 
+                <!-- <div class="col blue order-md-4">col-3</div>
+                <div class="col bg-danger order-md-1">col-4</div> -->
+            </div>
+</body>
+
+</html>

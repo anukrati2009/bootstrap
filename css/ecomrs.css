@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* navigation css */
+#header .fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 /5%);
+
+}
+#header .navbar-nav .nav-item .nav-link{
+    color:orange;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#header .navbar-nav .nav-item .nav-link:hover{
+    color: red;
+} 
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+/* home css */
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    min-height: 650px;
+    position: relative;
+}
+.home .home-banner-1{
+    background-image: url(https://www.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png);
+}
+.home .home-banner-2{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/09/86/97/1000_F_309869755_IquCHHxF7YABo2odctUGEjMrgVDSM8qV.jpg);
+}
+.home .home-banner .home-banner-text{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    transform: translate(-110%,-50%);
+}
+.home .home-banner .home-banner-text h1{
+    font-size: 5rem;
+}
+/* offer css  */
+.offers{
+    padding-top: 4.75rem;
+}
+.offers .offer-box .offer-image::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    display:block;
+    background: -webkit-gradient(to right,rgba(255,255,255,0)0%,rgba(255,255,255,0.3)100%);
+    background: linear-gradient(to right,rgba(255,255,255,0)0%,rgba(255,255,255,0.3)100%);
+    transform: skewX(-25deg);
+}
+.offers .offer-box .offer-image img{
+    transform: scale(1.02);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.offers .offer-box .offer-image::before{
+    animation: effect_shine 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes effect_shine{
+    100%{
+        left: 150%;
+    }
+}
+.offers .offer-overlay::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+height: 100%;
+background: rgba(0, 0,0,0.4);
+}
+.offers .offer-box .offer-info{
+    position: absolute;
+    left: 0;
+    top: 0;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+z-index: 1;
+transition: all 250ms ease-out;
+justify-content: center;
+align-items: center;
+}
+.offers .offer-box .offer-info .heading-bigger{
+ font-size: 3.37rem;
+ line-height: 1;
+ text-transform: uppercase;
+ font-weight: 400;
+ margin-bottom: 0;
+ color: white;
+
+}
+.offers .offer-box .offer-info .offer-tittle-1{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+
+}
+.offers .offer-box .offer-info .btn-outline-danger{
+    color:white;
+    border-color: white;
+
+}
+.c{
+    background-image: url(https://img.freepik.com/free-photo/young-woman-shopping-shopping-mall_1303-27924.jpg?t=st=1738342330~exp=1738345930~hmac=e0768ef220151b4cf927f0aaf33df71fd763ecb906f6cbc4fb2b7a3b0ba4ea13&w=996);
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    padding-top: 120px;
+    background-size: cover;
+
+}
+.e{
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 10px;
+    color: black;
+    
+
+}
+.d {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+     color: red;
+    font-size: 50px;}
+    
+footer {
+    background:rgb(166, 166, 166);
+    padding: 50px;
+    color: black;
+    box-shadow: 0.255rem 0.125rem 0.675rem rgb(0 0 0 /5%)}
+
+.ml-1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    font-size: 2 rem;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color:black;
+}
+
+.footer p {
+    color:black;
+}
+.nn{
+    text-align: center;
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for responsive  */
+
+
+ /* home css */
+ .home .home-banner-1,
+ .home .home-banner-2{
+     background-position: 65% center;
+     min-height: 550px;
+ }
+ .home .home-banner-text{
+     transform: translate(-80%,-50%);
+ }
+ /* special css  */
+
+@media(max-width:991px){
+ .home .home-banner-text{
+     transform: translate(-66%,-50%);
+ }
+ /* special css  */
+}
+@media(max-width:767px){
+ .home .home-banner-1,
+ .home .home-banner-2{
+     background-position: 50% center;
+     min-height: 450px;
+ }
+ .home  .home-banner .home-banner-text{
+     text-align: center;
+     width: 100%;
+     transform: translate(-50%,-50%);
+ }
+ .home  .home-banner .home-banner-text h1{
+     font-size: 3rem;
+ }
+ .home  .home-banner .home-banner-text h2{
+     font-size: 1.2rem;
+ }
+ .home  .home-banner .home-banner-text .btn{
+     padding: 0.5rem 1.5rem;
+ }
+}
