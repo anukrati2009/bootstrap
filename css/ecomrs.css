@@ -141,8 +141,10 @@ align-items: center;
     padding-right: 5px;
     margin-top: 10px;
     color: black;
-    
 
+}
+.t{
+    
 }
 .d {
     line-height: 35px;
@@ -151,9 +153,29 @@ align-items: center;
     padding-right: 5px;
      color: red;
     font-size: 50px;}
+    .y{
+        line-height: 1px;
+        word-spacing: 1px;
+        font-weight: 100; 
+        font-family: 'prague';
+        line-height: 25px;
+    }
+    .o{
+        background-image: url(https://as1.ftcdn.net/v2/jpg/02/53/76/76/1000_F_253767680_wiDlX4nsuXQ6KD8wlbLzIpdpL09VfrxR.jpg);
+        width: 100%;
+        height: 600px;
+        margin-top: 30px;
+        padding-top: 120px;
+        background-size: cover;
+        opacity: 0.6;  
+    }
+    .o:hover{
+        opacity: 1.0;
+        transition: 1s;
+    }
     
 footer {
-    background:rgb(166, 166, 166);
+    background:rgb(219, 217, 217);
     padding: 50px;
     color: black;
     box-shadow: 0.255rem 0.125rem 0.675rem rgb(0 0 0 /5%)}
@@ -175,6 +197,66 @@ footer {
     text-align: center;
        
 }
+
+    .card:hover {
+        background-color: #e1dfdf; /* Change background on hover */
+        transform: scale(1.05); /* Slight zoom effect */
+        transition: all 0.3s ease; /* Smooth transition */
+    }
+    .y:hover{
+        transform: scale(1.05); /* Slight zoom effect */
+        transition: all 0.3s ease; /* Smooth transition */
+    }
+    /* login css */
+    .login{
+        position: fixed;
+        background-color: #e1dfdf;
+        z-index: 1;
+        width: 420px;
+        box-shadow: -2px 0 4px hsl(0, 0%, 98%);
+        height: 100%;
+        top: 0;
+        padding: 3.5rem 2rem;
+        transition: .4s;
+    }
+    .login__tittle-center{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 16px;
+        margin-top: 30px;
+    }
+    .login__cose{
+        font-size: 11rem;
+        color: aqua;
+        position: absolute;
+        top: 1.25rem;
+        right: 0.9rem;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .login__form{
+        row-gap: 1.5rem;
+        font-weight: bold;
+
+    
+    }
+    .login__content{
+        background:rgb(255, 255, 255);
+        border-radius: 1rem;
+        padding: 0.75rem 1rem 0.25rem;
+    }
+    .login__lable{
+        font-size: 20px;
+        color: black;
+    }
+    .login__input{
+        width: 100%;
+        background-color: bisque;
+        color: black;
+        font-size: 15px;
+        padding: 0.25rem 0.5rem 0.5rem 0;
+    }
+    
 
 
 
